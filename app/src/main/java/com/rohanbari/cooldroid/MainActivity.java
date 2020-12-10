@@ -1,4 +1,4 @@
-package com.rohanbari.coldroid;
+package com.rohanbari.cooldroid;
 
 import androidx.appcompat.app.AppCompatActivity;
 
