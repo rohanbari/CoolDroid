@@ -7,26 +7,25 @@ package com.rohanbari.cooldroid;
  * @since 1.0
  */
 public class Circle {
-    private float radius;
-    private final float PI = 3.1415926535f;
+    private double radius;
 
     public Circle() {
-        radius = 0.0f;
+        this.radius = 0.0f;
     }
 
-    public float getRadius() {
-        return radius;
+    public double getRadius() {
+        return this.radius;
     }
 
-    public void setRadius(float rad) {
-        radius = rad;
+    public void setRadius(double rad) {
+        this.radius = rad;
     }
 
-    public float getArea() {
-        return (float) (PI * Math.pow(radius, 2));
+    public double getArea() {
+        return Math.PI * this.radius * this.radius;
     }
 
-    public float getPerimeter() {
-        return 2 * PI * radius;
+    public double getPerimeter() {
+        return 2 * Math.PI * this.radius;
     }
 }
